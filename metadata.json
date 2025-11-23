@@ -1,0 +1,5 @@
+{
+  "name": "YT-DLP GUI & AI Assistant",
+  "description": "一个基于Web的 yt-dlp 命令生成器与AI助手。它帮助用户配置复杂的下载参数，生成命令行代码，并利用 Gemini AI 解析和优化下载策略。注意：本应用生成命令，需在本地终端运行。",
+  "requestFramePermissions": []
+}
