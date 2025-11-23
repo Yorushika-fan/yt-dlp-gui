@@ -6,9 +6,7 @@
     <title>yt-dlp GUI Generator</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-      // Polyfill for process.env to prevent crashes in browser environment
-      window.process = window.process || { env: { API_KEY: '' } };
-      
+      // TailwinCSS Config
       tailwind.config = {
         theme: {
           extend: {
@@ -54,14 +52,15 @@
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
     "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
-    "socket.io-client": "https://cdn.socket.io/4.7.4/socket.io.esm.min.js"
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
+    "socket.io-client": "https://aistudiocdn.com/socket.io-client@^4.8.1"
   }
 }
 </script>
 </head>
   <body>
     <div id="root"></div>
-    <!-- Entry point for Vite/Build tools -->
     <script type="module" src="/index.tsx"></script>
   </body>
 </html>
